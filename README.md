@@ -15,7 +15,7 @@
 
 ## Wireframe:
 
-## Features:
+## Features/How to Use:
 1. Allow users to enter & submit a keyword
 2. makes a request to the Giphy api based on that keyword
 3. receives and parses the response

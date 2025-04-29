@@ -1,15 +1,23 @@
-async function fetchPictures() {
-    let response - await fetch ("https://api.giphy.com/v1/gifs/search?api_key=gszswiwDpZti4BXeNMSmGw067FXI6H5d&q=Books&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips")
-console.log (response)
+async function fetchdata(){
+    let searchTerm = document.getElementById("type").ariaValueMax;
+    if (searchTer == "") searchTerm = "";
+    let response = await fetch(
+        'https://api.giphy.com/v1/gifs/search?api_key=&q=${searchTerm}&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips'
+    );
 
-let jsonGiphy - await (response.json())
+    let giphyJson = await response.json();
+    let arrPictures = giphyJson.data;
 
-console.log (jsonGiphy)
-console.log (jsonGiphy.data)
-console.log (jsonGiphy.meta)
-console.log (jsonGiphy.pagination)
+    let container = document.getElementById("images");
+    container.innerHTTML = "";
 
-    
+    for (let index = 0; index < arrPictures.length; index++){
+        let img = document.createElement("img");
+        img.src = arrPictures[index].images..original.url;
+        container.append(img)
+        console.log(arrPictures[index].images.orginial.url);
+    }
 }
+fetchdata();
 
-fetchPictures {}
+document.getElementById("Search").addEventListener("click", fetchdata);
