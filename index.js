@@ -1,21 +1,24 @@
-async function fetchdata() {
-    let searchTerm = document.getElementById("type").value;
-    if (searchTerm == "") searchTerm = "";
-    let response = await fetch(
-    "https://api.giphy.com/v1/gifs/search?api_key=&q=${searchTerm}&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips"
-    );
-    let giphyJson = await response.json()
-    let arrPictures = giphyJson.data;
+async function getGifs(query) {
+    document.getElementById("divGiphy").innerHTML=""
+    let searchTerm =
+    document.getElementById("searchPhrase").value.trim()
+        if (searchTerm == "") return;
+        try {
+            let response = await fetch('https://api.giphy.com/v1/gifs/search?api_key=&q=${searchTerm}&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips')
+            let jsonGiphy = await response.json()
+            let dataGiphy = jsonGiphy.data
 
-    let container = document.getElementsById("images")
-    container.innerHTML = "";
+            dataGiphy.forEach(element => {
+                let newImage = document.createElement ("img")
+                newImage.src = element.images.original.url
+                document.getElementById("divGiphy").append(newImage)
+            })
+        }
 
-    for (let index =0; index < arrPictures.length; index++) {
-        let img = document.createElement("img");
-        img.src = arrPictures[index].images.original.url;
-        container.append(img);
-        console.log(arrPictures[index].images.original.url);
-    }
+  }
+  
+  catch (error) {
+    console.error(error);
+  }
+
 fetchdata();
-
-document.getElementById("Search").addEventListener("click", fetchPictures);
