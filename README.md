@@ -9,9 +9,9 @@
 
 
 ## User Stories:
-1. example 1
-2. example 2
-3. example 3
+1. For users to be able to quickly find fun giphys to send to friends via text or social media
+2. For users to find fun 3 second videos to enjoy for their leisure
+3. For users to find a plethora of videos through a specified catagory that best fits their needs entertainment or social purposes.
 
 ## Wireframe:
 
