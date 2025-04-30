@@ -17,9 +17,9 @@
 
 ## Features/How to Use:
 1. Allow users to enter & submit a keyword
-2. makes a request to the Giphy api based on that keyword
+2. makes a request to the Giphy api based on similar keyword
 3. receives and parses the response
-4. displays images on the page from that response
+4. displays query of images on the page from that response
 5. uses a custom css grid to display the images
 6. ensures the site is responsive so that it looks good/works well on both desktop and mobile devices
 
@@ -31,7 +31,9 @@
 - Canva
 
 ## Future Improvements:
-
+ - Updated website layout and personalize more features
+ - Add a feature for users and website viewers to upload personalized videos to share
+ - Add a download or share feature to make sharing content accessible
 
 ## Author:
 [Allie Efferson](https://www.linkedin.com/in/allie-efferson/)
