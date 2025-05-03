@@ -3,3 +3,45 @@ body {
     font-family: cursive;
     font-size: x-large;
    }
+
+button {
+    background-color:darkolivegreen;
+    color:beige
+}
+
+button:hover {
+    background-color:darkolivegreen;
+}
+
+header {
+    background-color:darkolivegreen;
+    color:beige;
+    padding: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: black;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+header2 {
+    text-align: center;
+    color: black;
+}
+
+gif-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow:rgba(red, green, blue, alpha)
+}
+
