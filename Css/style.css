@@ -4,15 +4,6 @@ body {
     font-size: x-large;
    }
 
-button {
-    background-color:darkolivegreen;
-    color:beige
-}
-
-button:hover {
-    background-color:darkolivegreen;
-}
-
 header {
     background-color:darkolivegreen;
     color:beige;
@@ -28,20 +19,32 @@ footer {
     text-align: center;
 }
 
+button {
+    background-color:darkolivegreen;
+    color:beige
+}
+
+button:hover {
+    background-color:darkolivegreen;
+}
+
 header2 {
     text-align: center;
     color: black;
 }
 
-gif-container {
+#gif-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-evenly;
+
 }
 
 img {
-    border-radius: 10px;
-    box-shadow:rgba(red, green, blue, alpha)
+    border-radius: 25px;
 }
 
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
