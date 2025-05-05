@@ -6,6 +6,8 @@
 
 
 ## ScreenShots:
+![Screenshot 2025-05-04 194332](https://github.com/user-attachments/assets/b6317a99-b5cf-4445-bcc6-707e354af515)
+![Screenshot 2025-05-04 194410](https://github.com/user-attachments/assets/28ba7398-ff0d-4e4e-b5bc-b556996c55f8)
 
 
 ## User Stories:
@@ -25,7 +27,8 @@
 
 ## Technologies Used:
 - HTML
-- Javascript
+- Javascript![Screenshot 2025-05-04 194332](https://github.com/user-attachments/assets/793cfe58-f300-44b4-ad0e-82460af5bde0)
+
 - CSS
 - Bootstrap
 - Canva
