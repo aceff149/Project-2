@@ -15,16 +15,19 @@ header {
     margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px;
+    margin:auto;
 }
 
 main {
     text-align: center;
+    margin:auto;
 }
 
 footer {
     background-color: black;
     color: darkolivegreen;
     text-align: center;
+    margin:auto;
 }
 
 button {
@@ -39,17 +42,21 @@ button:hover {
 header2 {
     text-align: center;
     color: black;
+    margin:auto;
 }
 
 #gif-container {
     display: grid;
     place-items: center;
     grid-template-columns:1fr 1fr 1fr 1fr;
+    margin:auto;
+    width:auto;
 }
 
 img {
     border-radius: 25px;
     box-shadow: 5px 5px 5px;
+    margin:auto;
 }
 
 img:hover {
