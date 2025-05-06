@@ -46,9 +46,9 @@ header2 {
 }
 
 #gif-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     place-items: center;
-    grid-template-columns:1fr 1fr 1fr 1fr;
     margin:auto;
     width:auto;
 }
