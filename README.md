@@ -28,6 +28,7 @@ A fun website used to find and share giphys with friends or to click through for
 ## Technologies Used:
 - HTML
 - Javascript
+- API
 - CSS
 - Bootstrap
 - Canva
