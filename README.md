@@ -11,9 +11,9 @@ A fun website used to find and share giphys with friends or to click through for
 
 
 ## User Stories:
-1. For users to be able to quickly find fun giphys to send to friends via text or social media
-2. For users to find fun 3 second videos to enjoy for their leisure
-3. For users to find a plethora of videos through a specified catagory that best fits their needs entertainment or social purposes.
+1. As a user I want to be able to quickly find fun giphys to send to friends via text or social media
+2. As a users I want to find fun 3 second videos to enjoy for their leisure
+3. As a user I want to find a plethora of videos through a specified catagory that best fits their needs entertainment or social purposes.
 
 ## Wireframe:
 ![1](https://github.com/user-attachments/assets/bb18cbe8-bcb3-4f9a-a337-d17d287b4354)
@@ -28,7 +28,8 @@ A fun website used to find and share giphys with friends or to click through for
 ## Technologies Used:
 - HTML
 - Javascript
-- API
+  - Giphy API (https://api.giphy.com/v1/gifs/search?api_key=gszswiwDpZti4BXeNMSmGw067FXI6H5d&q=Allie&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips)
+  - Asynchronous
 - CSS
 - Bootstrap
 - Canva
